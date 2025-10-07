@@ -12,8 +12,5 @@ class EventPhoto extends Model
 
     protected $fillable = ['event_id', 'photo_path'];
 
-    // public function event()
-    // {
-    //     return $this->belongsTo(Event::class);
-    // }
+
 }

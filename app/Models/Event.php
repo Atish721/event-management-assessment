@@ -28,28 +28,4 @@ class Event extends Model
         return $this->belongsTo(User::class);
     }
 
-    // public function category()
-    // {
-    //     return $this->belongsTo(Category::class);
-    // }
-
-    // public function photos()
-    // {
-    //     return $this->hasMany(EventPhoto::class);
-    // }
-
-    // public function isPublished()
-    // {
-    //     return $this->publish_date->isPast();
-    // }
-
-    // public function scopePublished($query)
-    // {
-    //     return $query->where('publish_date', '<=',Carbon::now());
-    // }
-
-    // public function scopeWaitingForPublish($query)
-    // {
-    //     return $query->where('publish_date', '>',Carbon::now());
-    // }
 }
