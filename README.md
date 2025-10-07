@@ -1,4 +1,4 @@
-# Event Management Portal - Backend (Laravel)
+# Event Management Portal
 
 ## Requirements
 - PHP 8.x
